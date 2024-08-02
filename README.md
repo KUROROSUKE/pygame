@@ -10,5 +10,3 @@
 **➅「main_game.py」を実行する。**  
 　　AIの推論をする上で、「動作環境.txt」に入っているライブラリが必要。  
 　　コマンドプロンプトで、「pip install -r requirements.txt」を実行（requirements.txtの中身を読み取ってインストールする）  
-
-<span style="color: red;">このテキストは赤色です</span>
