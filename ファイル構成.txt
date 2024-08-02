@@ -1,0 +1,50 @@
+C:.
+│   action_use.py
+│   main_game.py
+│   select_use.py
+│   tempCodeRunnerFile.py
+│   ファイル構成.txt
+│
+├───compound
+│       standard.json
+│
+├───font（windowsの、日本語に対応しているフォントをコピーしてくる。C:\Windows\Fonts から持ってくる）
+│       BIZ-UDGothicB.ttc
+│       BIZ-UDGothicR.ttc
+│
+├───image
+│       1.png
+│       2.png
+│       3.png
+│       4.png
+│       5.png
+│       6.png
+│       7.png
+│       8.png
+│       9.png
+│       10.png
+│       11.png
+│       12.png
+│       13.png
+│       14.png
+│       15.png
+│       16.png
+│       17.png
+│       18.png
+│       19.png
+│       20.png
+│       26.png
+│       29.png
+│       30.png
+│       53.png
+│
+└───save_data
+        card_model_1.keras
+        card_model_2.keras
+        card_model_3.keras
+        card_model_4.keras
+        card_model_5.keras
+        card_model_6.keras
+        card_model_7.keras
+        card_model_8.keras
+        new_model.keras
