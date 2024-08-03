@@ -10,4 +10,25 @@
 **➅「main_game.py」を実行する。**  
 　　**AIの推論をする上で、「動作環境.txt」に入っているライブラリが必要。**  
 　　コマンドプロンプトで、「pip install -r requirements.txt」を実行（requirements.txtの中身を読み取ってインストールする）  
-元ネタ：https://kurorosuke.github.io/atom_game/new_game/game.html
+元ネタ：https://kurorosuke.github.io/atom_game/new_game/game.html  
+↑これとの違い：tensorflowによってAIの推論を用いた。  
+  
+  
+
+拡張する方法：  
+➀新たな分子を作れるようにする（カードは8枚なので、原子の数が8以下の物）
+  compound/standard.jsonの"material"に
+          ...},　　←「,」から書き始める  
+          {  
+              "name": "分子の名前",　　←""はいる。  
+              "formula": "分子の化学式",　　←これも""がいる  
+              "point": ポイント数,　　←""はいらない。数字で入力  
+              "components": {  
+                  "必要な原子➀": 原子➀の数,　　←原子の種類だけ必要。最後の原子には「,」はいらない  
+                  "必要な原子➁": 原子➁の数  
+              }  
+          }  
+    を追加する  
+➁フォントを変える  
+　　「font」ディレクトリに日本語対応のフォントを入れる  
+  　main_game.pyの「japanese_font_path」にそのフォントの相対パスを入れる（「font/フォントの名前」）  
